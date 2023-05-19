@@ -19,13 +19,13 @@ int Yatzy::yatzy(int dice[])
     return 50;
 }
 
-int Yatzy::OnesTwosThreesFoursFivesSixes(int d1, int d2, int d3, int d4, int d5, int value_of_dice) {
+int Yatzy::OnesTwosThreesFoursFivesSixes(int d1, int d2, int d3, int d4, int d5, int valueOfDice) {
     int sum = 0;
-    if (d1 == value_of_dice) sum += value_of_dice;
-    if (d2 == value_of_dice) sum += value_of_dice;
-    if (d3 == value_of_dice) sum += value_of_dice;
-    if (d4 == value_of_dice) sum += value_of_dice;
-    if (d5 == value_of_dice) sum += value_of_dice;
+    if (d1 == valueOfDice) sum += valueOfDice;
+    if (d2 == valueOfDice) sum += valueOfDice;
+    if (d3 == valueOfDice) sum += valueOfDice;
+    if (d4 == valueOfDice) sum += valueOfDice;
+    if (d5 == valueOfDice) sum += valueOfDice;
 
     return sum;
 }
